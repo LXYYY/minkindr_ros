@@ -2,12 +2,12 @@
 #define MINKINDR_CONVERSIONS_KINDR_TF_H
 
 #include <kindr/minimal/quat-transformation.h>
-#include <tf/transform_datatypes.h>
+#include <tf2/transform_datatypes.h>
 #include <Eigen/Core>
 #include <Eigen/Geometry>
 
 #include <glog/logging.h>
-#include <tf_conversions/tf_eigen.h>
+#include <tf2_eigen/tf2_eigen.h>
 
 namespace tf {
 
